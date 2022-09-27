@@ -1,22 +1,45 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: rcmorano
+repo: upptime-poc
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: dev-tn-root
+    url: https://evoting-testnet.metadata.dev.cf-deployments.org/
+    maxResponseTime: 2000
+    __dangerous__body_down_if_text_missing: 'Cardano Ballot Web Application'
+    expectedStatusCodes:
+      - 200
+  - name: dev-tn-voter-service-AWARD-categories
+    url: https://evoting-testnet.metadata.dev.cf-deployments.org/api/reference/categories/M4ep/AWARD
+    maxResponseTime: 2000
+    __dangerous__body_down_if_text_missing: '"categoryType":"AWARD"'
+    expectedStatusCodes:
+      - 200
+  - name: dev-tn-voter-service-SPEAKERS-categories
+    url: https://evoting-testnet.metadata.dev.cf-deployments.org/api/reference/categories/M4ep/SPEAKER
+    maxResponseTime: 2000
+    __dangerous__body_down_if_text_missing: '"categoryType":"SPEAKER"'
+    expectedStatusCodes:
+      - 200
+  - name: dev-tn-voter-service-cast-vote
+    url: https://evoting-testnet.metadata.dev.cf-deployments.org/api/voting/cast-vote
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 401
+  - name: dev-tn-voter-service-get-captcha
+    url: https://evoting-testnet.metadata.dev.cf-deployments.org/captcha
+    maxResponseTime: 2000
+    __dangerous__body_down_if_text_missing: 'svg'
+    expectedStatusCodes:
+      - 200
 
+
+  
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
+  # cname: demo.upptime.js.org
+  baseUrl: /upptime-poc
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime
   introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
@@ -27,5 +50,4 @@ status-website:
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+
