@@ -32,11 +32,6 @@ sites:
     __dangerous__body_down_if_text_missing: 'svg'
     expectedStatusCodes:
       - 200
-  - name: dev-tn-voter-always-failing-service
-    url: https://evoting-testnet.metadata.dev.cf-deployments.org/invalid-route
-    maxResponseTime: 2000
-    expectedStatusCodes:
-      - 200
   
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
