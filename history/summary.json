@@ -4,9 +4,9 @@
     "url": "https://evoting-testnet.metadata.dev.cf-deployments.org/",
     "icon": "https://icons.duckduckgo.com/ip3/evoting-testnet.metadata.dev.cf-deployments.org.ico",
     "slug": "dev-tn-root",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -15,25 +15,28 @@
     "timeWeek": 551,
     "timeMonth": 446,
     "timeYear": 396,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2022-11-15": 0
+    }
   },
   {
     "name": "dev-tn-voter-service-AWARD-categories",
     "url": "https://evoting-testnet.metadata.dev.cf-deployments.org/api/reference/categories/M4ep/AWARD",
     "icon": "https://icons.duckduckgo.com/ip3/evoting-testnet.metadata.dev.cf-deployments.org.ico",
     "slug": "dev-tn-voter-service-award-categories",
-    "status": "up",
-    "uptime": "81.21%",
-    "uptimeDay": "100.00%",
+    "status": "down",
+    "uptime": "81.42%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "70.19%",
-    "uptimeYear": "81.21%",
+    "uptimeYear": "81.42%",
     "time": 467,
     "timeDay": 400,
     "timeWeek": 472,
     "timeMonth": 474,
     "timeYear": 467,
     "dailyMinutesDown": {
+      "2022-11-15": 0,
       "2022-10-26": 955,
       "2022-10-25": 1440,
       "2022-10-24": 1440,
@@ -51,9 +54,9 @@
     "url": "https://evoting-testnet.metadata.dev.cf-deployments.org/api/reference/categories/M4ep/SPEAKER",
     "icon": "https://icons.duckduckgo.com/ip3/evoting-testnet.metadata.dev.cf-deployments.org.ico",
     "slug": "dev-tn-voter-service-speakers-categories",
-    "status": "up",
+    "status": "down",
     "uptime": "99.96%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.96%",
@@ -63,6 +66,7 @@
     "timeMonth": 488,
     "timeYear": 444,
     "dailyMinutesDown": {
+      "2022-11-15": 0,
       "2022-09-27": 25
     }
   },
@@ -71,9 +75,9 @@
     "url": "https://evoting-testnet.metadata.dev.cf-deployments.org/api/voting/cast-vote",
     "icon": "https://icons.duckduckgo.com/ip3/evoting-testnet.metadata.dev.cf-deployments.org.ico",
     "slug": "dev-tn-voter-service-cast-vote",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -82,16 +86,18 @@
     "timeWeek": 224,
     "timeMonth": 269,
     "timeYear": 292,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2022-11-15": 0
+    }
   },
   {
     "name": "dev-tn-voter-service-get-captcha",
     "url": "https://evoting-testnet.metadata.dev.cf-deployments.org/captcha",
     "icon": "https://icons.duckduckgo.com/ip3/evoting-testnet.metadata.dev.cf-deployments.org.ico",
     "slug": "dev-tn-voter-service-get-captcha",
-    "status": "up",
+    "status": "down",
     "uptime": "99.57%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.57%",
@@ -101,6 +107,7 @@
     "timeMonth": 267,
     "timeYear": 287,
     "dailyMinutesDown": {
+      "2022-11-15": 0,
       "2022-09-28": 269,
       "2022-09-27": 32
     }
